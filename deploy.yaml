@@ -1,0 +1,11 @@
+version: 1
+
+server:
+  cwd: '.'
+  script: 'next start --port $PORT'
+  runtime: nodejs14
+
+routes:
+  - src: /**
+    dest:
+      type: server

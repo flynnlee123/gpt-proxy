@@ -1,10 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/backend-api/conversation",
-      "destination": "https://api.pawan.krd"
-    },
-    {
       "source": "/",
       "destination": "https://api.openai.com"
     }

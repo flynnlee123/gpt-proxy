@@ -15,3 +15,4 @@ rm -rf node_modules
 npm install --registry=http://bnpm.byted.org
 
 npm run build
+

@@ -2,7 +2,7 @@ version: 1
 
 server:
   cwd: '.'
-  script: 'next start --port $PORT'
+  script: npm start
   runtime: nodejs14
 
 routes:

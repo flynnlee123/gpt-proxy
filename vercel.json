@@ -2,6 +2,9 @@
   "rewrites": [
     {
       "source": "/",
+      "headers": {
+        "host": "api.openai.com"
+      },
       "destination": "https://api.openai.com"
     }
   ]

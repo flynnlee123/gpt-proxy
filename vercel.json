@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "https://api.openai.com"
+      "source": "/:path*",
+      "destination": "https://api.openai.com/:path*"
     }
   ],
   "headers": [

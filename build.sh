@@ -15,8 +15,3 @@ rm -rf node_modules
 npm install --registry=http://bnpm.byted.org
 
 npm run build
-
-mkdir output
-
-# 拷贝文件
-ls -a | grep -v '^\(\.\{1,2\}\|output\)$' | xargs -I {} cp -R {} output
